@@ -1,12 +1,9 @@
 title: C-STS Re-annotation
-description: [EMNLP 2025] Annotating Training Data for Conditional Semantic Textual Similarity Measurement using Large Language Models
+description: Annotating Training Data for Conditional Semantic Textual Similarity Measurement using Large Language Models
 remote_theme: just-the-docs/just-the-docs
 url: https://jojozhang00.github.io
 baseurl: /CSTS-reannotation
 search_enabled: true
+
 aux_links:
   GitHub Repo: https://github.com/jojozhang00/CSTS-reannotation
-
-just_the_docs:
-  heading_anchors: true
-  aux_links_new_tab: false
