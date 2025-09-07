@@ -1,0 +1,11 @@
+title: CSTS Re-annotation
+description: Large-scale re-annotated C-STS dataset with LLM assistance
+remote_theme: just-the-docs/just-the-docs
+
+url: https://jojozhang00.github.io
+baseurl: /CSTS-reannotation
+
+search_enabled: true
+logo: # 
+aux_links:
+  GitHub Repo: https://github.com/jojozhang00/CSTS-reannotation
