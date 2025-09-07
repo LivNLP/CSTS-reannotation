@@ -1,3 +1,9 @@
+---
+layout: default
+title: Home
+nav_order: 1
+---
+
 # Annotating Training Data for Conditional Semantic Textual Similarity Measurement using Large Language Models
 
 ## Introduction
@@ -20,3 +26,5 @@ In this paper (EMNLP 2025), we present a **large-scale re-annotated C-STS datase
 The re-annotated dataset is released to support further research in conditional semantic similarity.  
 
 👉 [**Download C-STS Re-annotated Dataset**](dataset.zip)
+
+
