@@ -6,3 +6,7 @@ baseurl: /CSTS-reannotation
 search_enabled: true
 aux_links:
   GitHub Repo: https://github.com/jojozhang00/CSTS-reannotation
+
+just_the_docs:
+  heading_anchors: true
+  aux_links_new_tab: false
