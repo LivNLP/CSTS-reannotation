@@ -1,26 +1,8 @@
 title: C-STS Training Data Re-annotation
 description: Annotating Training Data for Conditional Semantic Textual Similarity Measurement using Large Language Models
 remote_theme: just-the-docs/just-the-docs
-
 url: https://jojozhang00.github.io
 baseurl: /CSTS-reannotation
-
 search_enabled: true
-
 aux_links:
   GitHub Repo: https://github.com/jojozhang00/CSTS-reannotation
-
-just_the_docs:
-  nav_external_links:
-    - title: "Introduction"
-      url: "/CSTS-reannotation/#introduction"
-      hide_icon: true
-    - title: "Our Work"
-      url: "/CSTS-reannotation/#our-work"
-      hide_icon: true
-    - title: "Key Results"
-      url: "/CSTS-reannotation/#key-results"
-      hide_icon: true
-    - title: "Download"
-      url: "/CSTS-reannotation/#download"
-      hide_icon: true
