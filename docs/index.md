@@ -29,7 +29,7 @@ The re-annotated dataset is released to support further research in conditional 
 
 ## Hugging Face Hub
 
-To facilitate community usage and integration, we have published the re-annotated dataset on the **Hugging Face Hub**. Users can easily load and utilize the data directly through the `datasets` library.
+We have published the re-annotated dataset on the **Hugging Face Hub**. Users can easily load and utilize the data directly through the `datasets` library.
 
 ### Dataset Card
 
@@ -51,3 +51,15 @@ validation_data = dataset["validation"]
 
 # Print an example instance
 print(train_data[0])
+
+## Citation Information
+```bibtex
+@misc{zhang2025annotatingtrainingdataconditional,
+    title={Annotating Training Data for Conditional Semantic Textual Similarity Measurement using Large Language Models}, 
+    author={Gaifan Zhang and Yi Zhou and Danushka Bollegala},
+    year={2025},
+    eprint={2509.14399},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL},
+    url={https://arxiv.org/abs/2509.14399}, 
+}
