@@ -27,3 +27,27 @@ The re-annotated dataset is released to support further research in conditional 
 
 👉 [**Download C-STS Re-annotated Dataset**](dataset.zip)
 
+## Hugging Face Hub
+
+To facilitate community usage and integration, we have published the re-annotated dataset on the **Hugging Face Hub**. Users can easily load and utilize the data directly through the `datasets` library.
+
+### Dataset Card
+
+👉 [**Visit the Huggingface dataset**](https://huggingface.co/datasets/LivNLP/C-STS_updated)
+
+### Load Dataset
+
+Use the code snippet below to access both the **`train`** and **`validation`** splits:
+
+```python
+from datasets import load_dataset
+
+# Load the dataset from the Hugging Face Hub
+dataset = load_dataset("LivNLP/C-STS_updated")
+
+# Access the training and validation splits
+train_data = dataset["train"]
+validation_data = dataset["validation"]
+
+# Print an example instance
+print(train_data[0])
