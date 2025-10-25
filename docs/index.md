@@ -33,7 +33,7 @@ We have published the re-annotated dataset on the **Hugging Face Hub**. Users ca
 
 ### Dataset Card
 
-👉 [**Visit the Huggingface dataset**](https://huggingface.co/datasets/LivNLP/C-STS_updated)
+👉 [**Visit the Huggingface dataset**](https://huggingface.co/datasets/LivNLP/C-STS-Reannotated)
 
 ### Load Dataset
 
@@ -43,7 +43,7 @@ Use the code snippet below to access both the **`train`** and **`validation`** s
 from datasets import load_dataset
 
 # Load the dataset from the Hugging Face Hub
-dataset = load_dataset("LivNLP/C-STS_updated")
+dataset = load_dataset("LivNLP/C-STS_Reannotated")
 
 # Access the training and validation splits
 train_data = dataset["train"]
