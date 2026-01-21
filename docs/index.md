@@ -55,13 +55,24 @@ print(train_data[0])
 
 ## Citation Information
 ```bibtex
-@misc{zhang2025annotatingtrainingdataconditional,
-    title={Annotating Training Data for Conditional Semantic Textual Similarity Measurement using Large Language Models}, 
-    author={Gaifan Zhang and Yi Zhou and Danushka Bollegala},
-    year={2025},
-    eprint={2509.14399},
-    archivePrefix={arXiv},
-    primaryClass={cs.CL},
-    url={https://arxiv.org/abs/2509.14399}, 
+@inproceedings{zhang-etal-2025-annotating,
+    title = "Annotating Training Data for Conditional Semantic Textual Similarity Measurement using Large Language Models",
+    author = "Zhang, Gaifan  and
+      Zhou, Yi  and
+      Bollegala, Danushka",
+    editor = "Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet",
+    booktitle = "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.emnlp-main.1373/",
+    doi = "10.18653/v1/2025.emnlp-main.1373",
+    pages = "27015--27027",
+    ISBN = "979-8-89176-332-6",
+    abstract = "Semantic similarity between two sentences depends on the aspects considered between those sentences. To study this phenomenon, Deshpande et al. (2023) proposed the Conditional Semantic Textual Similarity (C-STS) task and annotated a human-rated similarity dataset containing pairs of sentences compared under two different conditions. However, Tu et al. (2024) found various annotation issues in this dataset and showed that manually re-annotating a small portion of it leads to more accurate C-STS models. Despite these pioneering efforts, the lack of large and accurately annotated C-STS datasets remains a blocker for making progress on this task as evidenced by the subpar performance of the C-STS models. To address this training data need, we resort to Large Language Models (LLMs) to correct the condition statements and similarity ratings in the original dataset proposed by Deshpande et al. (2023). Our proposed method is able to re-annotate a large training dataset for the C-STS task with minimal manual effort. Importantly, by training a supervised C-STS model on our cleaned and re-annotated dataset, we achieve a 5.4{\%} statistically significant improvement in Spearman correlation. The re-annotated dataset is available at https://LivNLP.github.io/CSTS-reannotation."
 }
 ```
